@@ -15,7 +15,7 @@ default template
 #structure
 
 navLinks = [
-{ linkName: "link 1", icon: "tag", url: "https://google.com" },
+{ linkName: "link 1", icon: "tag", url: "https://external.com" },
 { linkName: "link 2", icon: "offline_bolt", url: "test" },
 { linkName: "link 3", icon: "home", url: "test1" },
 { linkName: "link 4", icon: "", url: "test2" },
