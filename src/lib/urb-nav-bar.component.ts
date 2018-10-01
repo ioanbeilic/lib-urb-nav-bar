@@ -72,7 +72,7 @@ export interface NavLinks {
       <!-- body content -->
       <ng-content select="[main]"></ng-content>
     <div>
-    
+
   </div>
 
   `,
@@ -170,6 +170,7 @@ export class UrbNavBarComponent implements OnInit {
     this.resizeDom();
     console.log(window.innerWidth);
   }
+  // first commit
   // left link
   @Input()
   navLinks: NavLinks[];
